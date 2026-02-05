@@ -1,4 +1,5 @@
 import { Customize } from './components/customize/Customize';
+import { Data } from './components/data-section/Data';
 import { Header } from './components/header/Header';
 import { Hero } from './components/hero/Hero';
 import { PlansSection } from './components/plans-section/PlansSection';
@@ -19,6 +20,7 @@ function App() {
         <Customize />
         <PlansSection />
         <WorkEverywhere />
+        <Data />
       </main>
     </div>
   );
