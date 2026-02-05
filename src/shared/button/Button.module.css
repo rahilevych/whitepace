@@ -1,0 +1,13 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  width: 100px;
+  border-radius: var(--border-radius-btn);
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+.button:hover {
+  filter: brightness(1.2);
+}

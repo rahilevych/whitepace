@@ -1,0 +1,9 @@
+:root {
+  --primary-color: #043873;
+  --primary-color-light: #2980b9;
+  --secondary-color: #ffe492;
+  --main-font: 'Inter', sans-serif;
+  --border-radius-btn: 6px;
+  --color-text-light: white;
+  --color-text-dark: var(--primary-color);
+}

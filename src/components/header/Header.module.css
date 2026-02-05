@@ -1,0 +1,13 @@
+.header {
+  width: 100%;
+  background-color: var(--primary-color);
+  height: 60px;
+}
+.header-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
