@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   font-size: 14px;
+  color: var(--color-text-light);
 }
 body {
   font-family: var(--main-font);
+
   line-height: 1.5;
   min-height: 100vh;
   display: flex;
@@ -25,8 +27,24 @@ body {
 ul {
   list-style: none;
 }
+h1 {
+  font-size: 64px;
+}
 @media (max-width: 1440px) {
   .container {
     padding: 20px;
+  }
+  h1 {
+    font-size: 58px;
+  }
+}
+@media (max-width: 1152px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 625px) {
+  h1 {
+    font-size: 42px;
   }
 }

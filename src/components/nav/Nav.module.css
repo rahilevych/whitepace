@@ -17,7 +17,7 @@
 }
 
 .btn {
-  background-color: var(--secondary-color);
-  color: var(--color-text-dark);
+  background-color: var(--primary-color-light);
+
   cursor: pointer;
 }
