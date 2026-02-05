@@ -1,0 +1,7 @@
+.extension {
+  background-color: var(--primary-color);
+}
+.section h2,
+.section p {
+  color: var(--color-text-light);
+}

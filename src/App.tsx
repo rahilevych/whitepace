@@ -1,6 +1,7 @@
 import { Header } from './components/header/Header';
 import { Hero } from './components/hero/Hero';
 import { ProjectManagment } from './components/project-managment/ProjectManagment';
+import { UseExtension } from './components/use-as-extension/UseExtension';
 import { WorkTogether } from './components/work-together/WorkTogether';
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
         <Hero />
         <ProjectManagment />
         <WorkTogether />
+        <UseExtension />
       </main>
     </div>
   );

@@ -2,6 +2,7 @@ import { FaArrowRight } from 'react-icons/fa';
 import { Button } from '../../shared/button/Button';
 import line from '../../assets/img/line.png';
 import styles from './Hero.module.css';
+import hero from '../../assets/img/hero-removebg-preview.png';
 
 export const Hero = () => {
   return (
@@ -20,7 +21,7 @@ export const Hero = () => {
             </Button>
           </div>
           <div className={styles.img}>
-            <img></img>
+            <img src={hero}></img>
           </div>
         </div>
       </div>
