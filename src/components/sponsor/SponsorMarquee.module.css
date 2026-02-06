@@ -1,0 +1,33 @@
+.marquee {
+  overflow: hidden;
+  margin: 2rem 0;
+  padding: 1rem 0;
+}
+
+.marquee__track {
+  display: flex;
+  gap: 3rem;
+  animation: scroll 20s linear infinite;
+}
+
+.marquee__item {
+  height: 50px;
+  object-fit: contain;
+  margin-right: 5rem;
+}
+
+@media (max-width: 768px) {
+  .marquee__item {
+    height: 30px;
+    margin-right: 1.5rem;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
