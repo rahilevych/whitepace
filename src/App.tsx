@@ -1,6 +1,7 @@
 import { Customize } from './components/customize/Customize';
 import { Data } from './components/data-section/Data';
 import { Fav } from './components/fav/Fav';
+import { Footer } from './components/footer/Footer';
 import { Header } from './components/header/Header';
 import { Hero } from './components/hero/Hero';
 import { PlansSection } from './components/plans-section/PlansSection';
@@ -26,6 +27,7 @@ function App() {
         <SponsorsMarquee />
         <Fav />
       </main>
+      <Footer />
     </div>
   );
 }
