@@ -1,6 +1,10 @@
 .section {
   flex-direction: row-reverse;
 }
+.section a {
+  color: var(--color-text-dark);
+  align-self: flex-start;
+}
 @media (max-width: 768px) {
   .section {
     flex-direction: column;

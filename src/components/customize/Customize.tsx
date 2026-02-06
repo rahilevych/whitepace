@@ -1,6 +1,6 @@
 import { Section } from '../../shared/section/Section';
 import styles from './Customize.module.css';
-
+import img from '../../assets/img/bussiness.png';
 export const Customize = () => {
   const title = 'Customize it to your needs';
   const paragraph =
@@ -14,6 +14,12 @@ export const Customize = () => {
           title={title}
           paragraph={paragraph}
           button={button}
+          img={img}
+          licence={
+            <a href='http://www.freepik.com'>
+              Designed by katemangostar / Freepik
+            </a>
+          }
         />
       </div>
     </section>

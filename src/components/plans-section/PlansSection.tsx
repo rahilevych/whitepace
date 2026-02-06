@@ -12,9 +12,8 @@ export const PlansSection = () => {
           or boost workplace productivity, Evernote has the right plan for you.
         </p>
         <div className={styles.plans}>
-          {' '}
           {plansData.map((card) => (
-            <PlanCard card={card} key={card.id} />
+            <PlanCard card={card} key={card.id} className={styles.card} />
           ))}
         </div>
       </div>

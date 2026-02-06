@@ -1,7 +1,28 @@
 .extension {
   background-color: var(--primary-color);
+  position: relative;
+  width: 100%;
 }
+
+.extension-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+}
+
 .section h2,
 .section p {
   color: var(--color-text-light);
+}
+.bg-img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+.bg-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
 }

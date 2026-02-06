@@ -2,14 +2,17 @@
   width: 100%;
   background-color: var(--primary-color);
   position: relative;
-  height: 100vh;
 }
 .hero-container {
   position: relative;
-  padding: 140px 0;
+
   height: 100%;
   width: 100%;
   z-index: 2;
+}
+.section h2,
+.section p {
+  color: var(--color-text-light);
 }
 .bg-img {
   position: absolute;
@@ -21,90 +24,4 @@
   height: 100%;
   width: 100%;
   object-fit: contain;
-}
-.content {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-end;
-  max-width: 656px;
-}
-.text p {
-  font-size: 18px;
-  margin-top: 24px;
-  margin-bottom: 60px;
-}
-.btn {
-  background-color: var(--primary-color-light);
-  padding: 20px;
-  gap: 10px;
-}
-.img {
-  height: 549px;
-  width: 824px;
-}
-.img img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-@media (max-width: 1440px) {
-  .hero-container {
-    padding: 100px 32px;
-  }
-  .img {
-    background-color: var(--primary-color-light);
-    height: 455px;
-    width: 685px;
-  }
-}
-@media (max-width: 1152px) {
-  .hero-container {
-    padding: 100px 32px;
-  }
-  .img {
-    height: 350px;
-    width: 526px;
-  }
-  .text {
-    max-width: 400px;
-  }
-  .text p {
-    font-size: 16px;
-  }
-}
-@media (max-width: 768px) {
-  .hero-container {
-    padding: 30px;
-  }
-  .img {
-    height: 20rem;
-    width: 95%;
-  }
-
-  .content {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
-  }
-  .text {
-    align-items: center;
-    justify-content: center;
-    max-width: 100%;
-  }
-  .text h1 {
-    text-align: center;
-  }
-  .text p {
-    text-align: center;
-    font-size: 16px;
-    margin-top: 15px;
-    margin-bottom: 20px;
-  }
 }
